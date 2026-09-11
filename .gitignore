@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Large / generated data (keep raw csv tracked, ignore heavy processed dumps if they get big)
+data/processed/*
+!data/processed/.gitkeep
+
+# results (keep small metric files, ignore big figure dumps if desired — adjust later)
+results/figures/*
+!results/figures/.gitkeep
